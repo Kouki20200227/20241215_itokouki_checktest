@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+}
+
+main {
+    border-top: 1px solid burlywood;
+}
+
+.confirm__content{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+table,tr{
+    border: 1px solid rgb(220, 220, 220);
+}
+th{
+    color: white;
+    background-color: burlywood;
+    width: 30%;
+}
+td{
+    width: 70%;
+}
+.confirm__table{
+    width: 100%;
+}
+.table__ttl{
+    width: 40%;
+    text-align: left;
+    background-color: burlywood;
+    color: white;
+}
+.group__lbl{
+    text-align: left;
+    padding-left: 3vw;
+}
+.group__input{
+    color: burlywood;
+}
+
+.confirm__btn{
+    margin: 5vh 0;
+    position: relative;
+}
+.group__btn{
+    width: 15vw;
+    position: absolute;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 2vh 2vw;
+    border: none;
+}
+.send__btn--submit{
+    background-color: burlywood;
+    color: white;
+}
+.correct__btn--submit{
+    color: burlywood;
+    text-decoration-line: underline;
+}
+
+
+

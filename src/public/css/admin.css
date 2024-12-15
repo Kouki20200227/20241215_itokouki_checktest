@@ -1,0 +1,111 @@
+body{
+    background-color: white;
+}
+
+main {
+    border-top: 1px solid burlywood;
+}
+
+.admin__content{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+
+input,select,button{
+    border: 1px solid rgb(220, 214, 197);
+}
+
+.search__form{
+    width: 100%;
+}
+
+.search__menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search__input--txt{
+    width: 30%;
+}
+.search__input--gender{
+    width: 7%;
+    background-color: rgb(236, 236, 236);
+    color: burlywood;
+}
+.search__input--category_id{
+    width: 22%;
+    background-color: rgb(236, 236, 236);
+    color: burlywood;
+}
+.search__input--date{
+    width: 15%;
+    background-color: rgb(236, 236, 236);
+    color: burlywood;
+}
+.search__btn--submit{
+    width: 8%;
+    background-color: burlywood;
+    color: white;
+}
+.search__input--reset{
+    width: 8%;
+    background-color: rgb(210, 200, 187);
+    color: white;
+}
+
+
+
+.admin__menu2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.kari{
+    width: 15%;
+    background-color: wheat;
+    text-align: center;
+}
+nav{
+    width: 30%;
+    display: inline-block;
+    margin: 0 0 0 auto;
+}
+li{
+    display: inline;
+}
+
+
+
+.contacts__table{
+    width: 100%;
+    border: 1px solid beige;
+    text-align: left;
+}
+tr{
+    border: 1px solid beige;
+}
+.table__ttl{
+    background-color: rgb(193, 103, 58);
+    color: white;
+}
+.group__name{
+    width: 20%;
+}
+.group__gender{
+    width: 10%;
+}
+.group__email{
+    width: 25%;
+}
+.group__category{
+    width: 25%;
+}
+.group__detail{
+    width: 15%;
+}
+
+
+.item{
+    margin-left: 10%;
+}

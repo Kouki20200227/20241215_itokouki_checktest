@@ -1,0 +1,48 @@
+main {
+    background-color: rgb(230, 230, 230);
+}
+
+.register__content{
+    width: 35%;
+    padding: 5vh 5vw;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid rgb(215, 199, 176);
+}
+
+.form__group:not(:last-of-type){
+    margin-bottom: 2.5vh;
+}
+.group__ttl{
+    font-size: 1.2em;
+    color: burlywood;
+}
+.group__ttl--text{
+    margin: 0;
+}
+.group__input{
+    width: 100%;
+}
+.group__input--text{
+    width: 100%;
+    padding: 5%;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+.form__btn{
+    width: 10vw;
+    margin: 0 auto;
+    margin-top: 7vh;
+    background-color: rgb(210, 191, 179);
+    color: white;
+    font-size: 1rem;
+}
+.form__btn--submit{
+    width: 100%;
+    padding: 1vh 1vw;
+    background-color: rgb(210, 191, 179);
+    color: white;
+    border: none;
+}

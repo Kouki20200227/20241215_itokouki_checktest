@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+/* ヘッダー部分 */
+header {
+    background-color: white;
+    height: 10vh;
+}
+.header__title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.logo_title {
+    color: brown;
+    width: 20vw;
+}
+.ttl__btn {
+    width: 6vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2vw;
+    text-align: center;
+}
+.ttl__btn--submit {
+    width: 100%;
+    border: 1px solid brown;
+    background-color: rgb(221, 209, 192);
+    padding: 0.5vh 0.5vw;
+    color: burlywood;
+    text-decoration-line: none;
+}
+
+/* メイン部分 */
+.main{
+    background-size: cover;
+    width: 100%;
+}
+.sub__title {
+    color: brown;
+    text-align: center;
+    margin: 5vh 0;
+    font-weight: bold;
+    font-size: 2em;
+}
